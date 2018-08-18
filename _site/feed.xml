@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Aug 2018 15:56:17 -0700</pubDate>
-    <lastBuildDate>Sat, 18 Aug 2018 15:56:17 -0700</lastBuildDate>
+    <pubDate>Sat, 18 Aug 2018 16:57:44 -0700</pubDate>
+    <lastBuildDate>Sat, 18 Aug 2018 16:57:44 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -59,6 +59,42 @@ hello world
         
         
         <category>Github</category>
+        
+      </item>
+    
+      <item>
+        <title>佛罗里达游记：奥兰多-迈阿密-基韦斯特</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#1215奥兰多orlando&quot; id=&quot;markdown-toc-1215奥兰多orlando&quot;&gt;12.15–奥兰多(Orlando)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+2016，1215－1224
+
+&lt;h2 id=&quot;1215奥兰多orlando&quot;&gt;12.15–奥兰多(Orlando)&lt;/h2&gt;
+我们是从洛杉矶飞往奥兰多，由于加州和佛罗里达有三小时时差，所以我们虽然是早上8点半的飞机，降落奥兰多国际机场时已经是当地时间下午4点半了(5小时飞行时间再加上佛罗里达时间早三小时)。所以这天几乎不能有任何出行安排，取车之后决定去Costco买些之后几天的水和能量bar, 然后就到预定的酒店入住。Zijun觉得在SUV后备箱备上一大箱水和小零食，然后去公路旅行的感觉也特别棒！
+
+住宿：
+
+此次行程住的地方大多都是Liangke订的，奥兰多的foo-foo最先入住的是一家连锁的motel酒店（Rosen Inn。这家酒店位于奥兰多繁华的international drive，街对面就是奥兰多景点之一wonder work–一座上下颠倒的楼，在酒店可以看到另一景点coca cola eye,酒店价格也很亲民。
+
+&lt;img src=&quot;https://zzjandglk.files.wordpress.com/2016/12/wonderworks1.jpg&quot; height=&quot;250&quot; /&gt;
+&lt;img src=&quot;https://zzjandglk.files.wordpress.com/2016/12/orl-orlando-shooting-eye-os0039079779-20160612.jpg&quot; height=&quot;250&quot; /&gt;
+
+</description>
+        <pubDate>Mon, 26 Dec 2016 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2016/12/26/florida/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/26/florida/</guid>
+        
+        <category>Travel</category>
+        
+        <category>Chinese</category>
+        
+        <category>中文</category>
+        
+        <category>游记</category>
+        
+        
+        <category>Travel</category>
         
       </item>
     
