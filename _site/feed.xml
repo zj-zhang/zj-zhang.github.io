@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Aug 2018 17:07:21 -0700</pubDate>
-    <lastBuildDate>Sat, 18 Aug 2018 17:07:21 -0700</lastBuildDate>
+    <pubDate>Sun, 19 Aug 2018 12:14:12 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Aug 2018 12:14:12 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -95,6 +95,36 @@ hello world
         
         
         <category>Travel</category>
+        
+      </item>
+    
+      <item>
+        <title>黑客帝国：理解Matrix的世界</title>
+        <description>3.19
+
+&lt;img src=&quot;https://i0.wp.com/deepaknair.com/supercool/wp-content/uploads/2012/12/neomatrixbullets.jpg&quot; width=&quot;450&quot; height=&quot;300&quot; align=&quot;center&quot; /&gt;
+
+连着两天把黑客帝国三部曲看完了。确实挺刺激的，而且有些话似乎是导演故意玩深沉，让帅帅的主角、神道的先知说些关于选择啊方向啊目的啊之类的玄乎其玄的人生大道理。这个暂且不做讨论，因为讨论这些大多数时候也没大意义，兴许哪天心情好就码几个字，今天就只写点黑客帝国中的科技背景吧。
+
+首先是意识与身体分离的问题。
+
+大概从人类开始发现意识不过是大脑皮层中的神经元的冲动，是膜电位的极化和去极化，从过去不可知的意识也能被仪器记录并且有规律可循开始，聪明的科学家们就在构想有一天能人为的操控意识，因为我们已经有了强大的电脑，足以精确的计算、模拟并给出人类任何需要的“感觉”，以至于你认为你看到的、听到的、触摸到的其实都是被操控的膜电位变化——神经冲动。而给出一切、操控一切的就是基于AI，这个人们既期盼又恐惧的东西。
+
+</description>
+        <pubDate>Mon, 19 Mar 2012 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2012/03/19/Matrix/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/03/19/Matrix/</guid>
+        
+        <category>Moive</category>
+        
+        <category>Chinese</category>
+        
+        <category>中文</category>
+        
+        <category>影评</category>
+        
+        
+        <category>Movie</category>
         
       </item>
     
