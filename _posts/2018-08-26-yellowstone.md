@@ -15,7 +15,6 @@ author: ZZJ & GLK
 
 
 
-
 ## 8.11: 飞往盐湖城,入住大堤顿
 
 飞往盐湖城，然后前往大堤顿公园附近小镇入住
@@ -178,4 +177,4 @@ Upper geyser basin; Hayden valley; Lamar valley; Cody
 <img src="https://raw.githubusercontent.com/zj-zhang/picture_store/master/2018-08-yellowstone/p49.jpg" width="300" height="400" />
 <img src="https://raw.githubusercontent.com/zj-zhang/picture_store/master/2018-08-yellowstone/p50.jpg" width="300" height="400" />
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O_4zV5GSBss?start=10?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
