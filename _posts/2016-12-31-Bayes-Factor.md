@@ -4,6 +4,7 @@ title:  "Understanding and implementing Bayes Factor/Bayes Hypothesis testing"
 categories: Statistics
 tags: statistics programming R
 author: ZZJ
+academia: true
 mathjax: true
 ---
 <img src="https://raw.githubusercontent.com/zj-zhang/myblog/master/20161231_bayesfactor/f1.png" height="300" weight="200" />

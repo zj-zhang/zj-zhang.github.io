@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-icon: heart
+icon: fas fa-heart
 type: page
 ---
 
