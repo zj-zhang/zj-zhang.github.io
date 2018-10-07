@@ -1,0 +1,17 @@
+.img_left {
+    float: left;
+    width: auto;
+    margin-right: 10px;
+
+}
+
+.research_item
+{ float: left;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+.illus
+{ height:150px;}
