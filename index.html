@@ -20,29 +20,56 @@ layout: default
     <div class="left">
         <h1>Welcome to Zijun Zhang's Homepage!</h1>
         <br/>
-        <span class="img_left"><img src="https://raw.githubusercontent.com/zj-zhang/picture_store/master/my-githubio-homepage/ZhangZ2.png" alt="example graphic" /></span>
-        <p class="justified"> I'm a Ph.D. candidate in Bioinformatics. </p>
+        <span class="img_left"><img src={{ site.data.profile.profile_img }} alt="example graphic" /></span>
+        <p class="justified"> {{ site.data.profile.first_paragraph }} </p>
 
-        <p class="justified">I completed my B.S. in Zhejiang University.</p>
+        <p class="justified"> {{ site.data.profile.second_paragraph }} </p>
         
         <hr />
+        {% for project in site.data.research_items %}
         <div class = "research_item">
-        <h2>Deep-learning augmented analysis</h2>
-        <span class="right"><img class="illus" src="homepage/galapagos-cormorant3.jpg" alt="example graphic" /></span>
-        <p class="justified">Background: DARTS</p>
-        <p class="justified">DARTS</p>
-        </div>
-        <div class = "research_item">
-        <h2>CLIP-seq analysis</h2>
-        <span class="right"><img class="illus" src="homepage/stochastic_worms.jpg" alt="example graphic" /></span>
-        <p class="justified">Background: CLAM</p>
-    
-        <p class="justified">CLAM</p>
-        </div>
+            <h2>{{ project.name }}</h2>
+            <span class="right"><img class="illus" src={{ project.url }} alt="example graphic" /></span>
+            <p class="justified">{{ project.background }}</p>
+            <p class="justified">{{ project.description }}</p>
+        </div>        
+        {% endfor %}
       </div>
     
+
+    <div class="right">
+        <div class="wrap">
+            <div class='side'>
+                <div>
+                    <i class="fas fa-mail-bulk"></i>
+                    Contact
+                <br />
+                <br />
+                <p><a href="https://xinglab.org/" target="_blank">Xing Lab</a>
+                <br>Bioinformatics IDP
+                <br />UCLA
+                <br /><a href="mailto:zj.z@ucla.edu" target=blank>zj.z@ucla.edu</a>
+                </p>
+                <p><a href="https://scholar.google.com/citations?user=YDl3mfgAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+
+                </div>
+            </div>
+            <div class="side">
+                <div>
+                    <i class="fa fa-external-link"></i>
+                    Links
+                </div>
+                <ul  class="content-ul">
+                {% for link in site.data.external_links %}
+                <li> 
+                    <a href={{link.url}}> {{link.name}} </a>
+                </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
-  
+
 </div>
 <!-- <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 <!-- <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->

@@ -1,0 +1,9 @@
+- name: Deep-learning Augmented Analysis
+  url: https://raw.githubusercontent.com/zj-zhang/picture_store/master/my-githubio-homepage/DARTS.jpg
+  background: DARTS Background
+  description: DARTS Description
+
+- name: CLIP-seq Analysis
+  url: https://raw.githubusercontent.com/zj-zhang/picture_store/master/my-githubio-homepage/CLAM.jpg
+  background: CLAM Background
+  description: CLAM Description
