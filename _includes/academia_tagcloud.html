@@ -1,15 +1,48 @@
-{% assign my_array = "test,test2" | split: ","" %}
+{% assign my_array = "" | split: "," %}
 
 {% for post in site.posts %}
-  {{post.tag}}
   {% if post.academia %}
      <!-- Push image into array -->
-     {% assign my_array = my_array | push: post.tag %}
+     {% assign my_array = my_array | push: post.tags %}
+     <!-- <p>rendering {{post.tags}}</p> -->
+
   {% endif %}
 {% endfor %}
 
-<p>{{my_array}}</p>
+{% assign academia_tags = my_array | join: ',' | split: ',' | sort  %}
+<!-- <p>{{ academia_tags | join: ","}}</p> -->
 
+<!--Code snippet for tag cloud inspired from
+https://stackoverflow.com/questions/36479756/counting-collection-tags-in-jekyll
+ -->
+{% comment %}map, flatten and sort{% endcomment %}
+{% assign previousTag = "" %}
+{% assign counter = 0 %}
+{% for currentTag in academia_tags %}
+
+  {% comment %}first loop : initializing previousTag{% endcomment %}
+  {% if previousTag == "" %}
+    {% assign previousTag = currentTag %}
+  {% endif %}
+
+  {% if currentTag == previousTag %}
+    {% assign counter = counter | plus: 1 %}
+  {% else %}
+    <!-- {{ previousTag }} ({{ counter }}) -->
+    <a href="{{ root_url }}/{{ site.tag_dir }}#{{ previousTag }}" class='tag-link'><span class='tag_name'>{{ previousTag }}</span><span class='tag_count'>({{ counter }})</span></a>
+    {% assign counter = 1 %}
+  {% endif %}
+
+  {% comment %}last loop : flushing what's left to print{% endcomment %}
+  {% if forloop.last %}
+    <!-- {{ currentTag }} ({{ counter }}) -->
+    <a href="{{ root_url }}/{{ site.tag_dir }}#{{ currentTag }}" class='tag-link'><span class='tage_name'>{{ currentTag }}</span><span class='tag_count'>({{ counter }})</span></a>
+  {% endif %}
+
+  {% assign previousTag = currentTag %}
+
+{% endfor %}
+<!--
 {% assign first = site.tags.first %}
 {% assign max = first[1].size %}
 {% assign min = max %}
@@ -45,3 +78,4 @@
   {% endif %}
   <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
 {% endfor %}
+-->
