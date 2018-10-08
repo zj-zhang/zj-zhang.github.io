@@ -20,7 +20,8 @@ layout: default
     <div class="left">
         <h1>Welcome to Zijun Zhang's Homepage!</h1>
         <br/>
-        <span class="img_left"><img src={{ site.data.profile.profile_img }} alt="example graphic" /></span>
+        <div class="img_left"><img src={{ site.data.profile.profile_img }} alt="example graphic" /><br />
+            <small> {{ site.data.profile.profile_note }} </small></div>
         <p class="justified"> {{ site.data.profile.first_paragraph }} </p>
 
         <p class="justified"> {{ site.data.profile.second_paragraph }} </p>
@@ -39,6 +40,9 @@ layout: default
 
     <div class="right">
         <div class="wrap">
+            <div class='side'>
+                {% include twitter_embed.html %}
+            </div>
             <div class='side'>
                 <div>
                     <i class="fas fa-mail-bulk"></i>
