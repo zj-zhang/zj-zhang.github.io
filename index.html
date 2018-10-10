@@ -30,7 +30,12 @@ layout: default
         {% for project in site.data.research_items %}
         <div class = "research_item">
             <h2>{{ project.name }}</h2>
-            <span class="right"><img class="illus" src={{ project.url }} alt="example graphic" /></span>
+            {% assign is_left = forloop.index | modulo: 2 %}
+            {% if is_left == 0 %}
+                <span class="research_img_left"><img class="illus" src={{ project.url }} alt="example graphic" /></span>
+            {% else %}
+                <span class="research_img_right"><img class="illus" src={{ project.url }} alt="example graphic" /></span>
+            {% endif %}
             <p class="justified">{{ project.background }}</p>
             <p class="justified">{{ project.description }}</p>
         </div>        

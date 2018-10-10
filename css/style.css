@@ -17,3 +17,17 @@
 { height:100%;
   width: 100%;
 }
+
+.research_img_left
+{
+	float:left;
+	width: 400px;
+	height:auto;
+}
+
+.research_img_right
+{
+	float:right;
+	width: 400px;
+	height:auto;
+}
