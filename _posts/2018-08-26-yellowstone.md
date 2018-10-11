@@ -3,7 +3,7 @@ layout: post
 title:  "黄石游记: 黄石 - 大堤顿 - 盐湖城"
 categories: Travel
 tags: Travel Chinese 中文 游记
-author: ZZJ & GLK
+author: ZijunZhang_ & LiangkeGou
 ---
 
 * content

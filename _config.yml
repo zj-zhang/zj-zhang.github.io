@@ -15,7 +15,7 @@ url: "https://zj-zhang.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: zjzhang_ucla
+twitter_username: ZijunZhang_
 facebook_username: 
 github_username:  zj-zhang
 email: zj.z@ucla.edu
@@ -64,14 +64,14 @@ paginate_path: "blog/page:num/"
 
 # For Jekyll-SEO
 author:
-  twitter: zjzhang_ucla
+  twitter: ZijunZhang_
 twitter:
-  username: zjzhang_ucla
+  username: ZijunZhang_
   card: summary
 social:
   name: Zijun Zhang
   links:
-    - https://twitter.com/zjzhang_ucla
+    - https://twitter.com/ZijunZhang_
     - https://www.facebook.com/frank.zhang.5209
     - https://www.linkedin.com/in/zijun-zhang-7859a07a/
     - https://github.com/zj-zhang

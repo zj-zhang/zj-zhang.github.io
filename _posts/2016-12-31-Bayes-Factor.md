@@ -3,7 +3,7 @@ layout: post
 title:  "Understanding and implementing Bayes Factor/Bayes Hypothesis testing"
 categories: Statistics
 tags: statistics programming R
-author: ZZJ
+author: ZijunZhang_
 academia: true
 mathjax: true
 ---

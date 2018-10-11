@@ -3,7 +3,7 @@ layout: post
 title:  "Installing Tensorflow with CUDA 8.0"
 categories: Programming
 tags: programming python tensorflow
-author: ZZJ
+author: ZijunZhang_
 academia: true
 mathjax: false
 ---
