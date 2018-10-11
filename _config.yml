@@ -7,6 +7,7 @@
 
 # Site settings
 title: Zijun Zhang
+description: Professional Homepage and Blogs of Zijun Zhang
 brief-intro: Ph.D. candidate in Bioinformatics @ UCLA 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zj-zhang.github.io" # the base hostname & protocol for your site
@@ -59,3 +60,20 @@ excerpt_separator: "\n\n\n\n"
 gems: [jekyll-paginate, jekyll-seo-tag]
 paginate: 6
 paginate_path: "blog/page:num/"
+
+
+# For Jekyll-SEO
+author:
+  twitter: zjzhang_ucla
+twitter:
+  username: zjzhang_ucla
+  card: summary
+social:
+  name: Zijun Zhang
+  links:
+    - https://twitter.com/zjzhang_ucla
+    - https://www.facebook.com/frank.zhang.5209
+    - https://www.linkedin.com/in/zijun-zhang-7859a07a/
+    - https://github.com/zj-zhang
+    - https://www.youtube.com/channel/UC1scIK8-JKb9uKNwOSzwXFw/videos
+    - https://zzjandglk.wordpress.com/
