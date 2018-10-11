@@ -1,6 +1,7 @@
 .img_left {
     float: left;
-    width: auto;
+    width: 200px;
+    height: auto;
     margin-right: 10px;
 
 }
