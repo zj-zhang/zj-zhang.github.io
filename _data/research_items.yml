@@ -1,9 +1,16 @@
-- name: Deep-learning Augmented Analysis
+- name: Deep-learning powered Knowledge-base Democratizes Big Data
   url: https://raw.githubusercontent.com/zj-zhang/picture_store/master/my-githubio-homepage/DARTS.jpg
-  background: DARTS Background
-  description: DARTS Description
+  background: The rapid accumulation of RNA-seq data across diverse cell types and conditions provides an unprecedented resource 
+    for characterizing transcriptome complexity. However, the use of these large-scale data in routine RNA-seq studies to detect 
+    patterns of expression and thereby discover new regulatory events has been limited. 
+  description: Conceptually, the DARTS framework transforms existing RNA-seq big data into a splicing knowledge-base by deep learning, 
+    and help democratize the information from large consortium projects to help individual investigators better characterize alternative 
+    splicing profiles using their specific RNA-seq datasets. <a href="#" target="_blank">Read More</a>
 
-- name: CLIP-seq Analysis
+- name: Statistics Reveals Novel Regulatory Patterns
   url: https://raw.githubusercontent.com/zj-zhang/picture_store/master/my-githubio-homepage/CLAM.jpg
-  background: CLAM Background
-  description: CLAM Description
+  background: CLIP/RIP-seq allows transcriptome-wide discovery of RNA regulatory sites. As CLIP-seq/RIP-seq reads are short, existing computational tools focus on uniquely mapped reads, while reads mapped to multiple loci are discarded. 
+  description: CLAM uses a statistical algorithm called "Expectation–Maximization" to assign multi-mapped reads and calls peaks combining uniquely and 
+    multi-mapped reads. CLAM provides a useful tool to discover novel protein–RNA interactions and RNA modification sites from CLIP-seq 
+    and RIP-seq data, and reveals the significant contribution of repetitive elements to the RNA regulatory landscape of the human 
+    transcriptome. <a href="https://academic.oup.com/nar/article/45/16/9260/4077049" target="_blank">Read More</a>

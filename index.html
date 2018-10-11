@@ -15,7 +15,7 @@ layout: default
         <hr />
         {% for project in site.data.research_items %}
         <div class = "research_item">
-            <h2>{{ project.name }}</h2>
+            <h3>{{ project.name }}</h3>
             {% assign is_left = forloop.index | modulo: 2 %}
             {% if is_left == 0 %}
                 <span class="research_img_left"><img class="illus" src={{ project.url }} alt="example graphic" /></span>
@@ -57,7 +57,7 @@ layout: default
                 <ul  class="content-ul">
                 {% for link in site.data.external_links %}
                 <li> 
-                    <a href={{link.url}}> {{link.name}} </a>
+                    <a href={{link.url}} target="_blank"> {{link.name}} </a>
                 </li>
                 {% endfor %}
                 </ul>
