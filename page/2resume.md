@@ -42,8 +42,12 @@ Education
 
 Publications
 -------------
-* TBD
-
+* <strong>Zhang, Zijun</strong>; Park, Eddie; Lin, Lan; Xing, Yi; <a>A panoramic view of RNA modifications: exploring new frontiers</a> (Genome Biology, 2018)
+* Park, Eddie; Pan, Zhicheng; <strong>Zhang, Zijun</strong>; Lin, Lan; Xing, Yi; <a>The expanding landscape of alternative splicing variation in human populations</a> (American Journal of Human Genetics, 2018)
+* <strong>Zhang, Zijun</strong>; Xing, Yi; <a>CLIP-seq analysis of multi-mapped reads discovers novel functional RNA regulatory sites in the human transcriptome</a> (Nucleic acids research, 2017)
+* Liu, Lili; <strong>Zhang, Zijun</strong>; Sheng, Taotao; Chen, Ming; <a>DEF: an automated dead-end filling approach based on quasi-endosymbiosis</a> (Bioinformatics, 2017)
+* Liu, Lili; Mei, Qian; Yu, Zhenning; Sun, Tianhao; <strong>Zhang, Zijun</strong>; Chen, Ming; <a>An integrative bioinformatics framework for genome-scale multiple level network reconstruction of rice</a> (Journal of integrative bioinformatics,2013)
+* Liu, Lili; <strong>Zhang, Zijun</strong>; Mei, Qian; Chen, Ming; <a>PSI: a comprehensive and integrative approach for accurate plant subcellular localization prediction</a> (PLoS One, 2013)
 
 Projects
 --------------------
