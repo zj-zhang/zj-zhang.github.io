@@ -9,7 +9,7 @@ type: page
 * content
 {:toc}
 <div>
-<a href="#"><huge>Chinese Version[中文版看这里]</huge></a>
+<a href="#">Chinese Version[中文版看这里]</a>
 </div>
 
 ## Biomedical Data Mining
@@ -20,12 +20,27 @@ future. Compared to the most cutting-edge advances comes from computer vision or
 "basic-science" in biomedical or biological fields. However, as moving forward, Bio-related fields will (quickly) become one of the 
 most feature-rich data sources that provides unique challenges and opportunites to deep learning.
 
+Biological and biomedical data have their distinct characteristics compared to data being used in modern deep learning studies. Most 
+notably, there are severe over-dispersion issues in common bio-related data. This is because the measurements for most bio traits are 
+not precise and subject to variations at multiple levels. 
+
+## Why study Bioinformatics?
+
+My interests of programming dates back to early days in my childhood. I first learned Visual Basic in elementary school through the
+book "Game Programming with Visual Basic in 21 Days" by Clayton Walnum. Although I was only able to read through to the first few days
+at that time, I managed to programmed a small whack-a-mole type game and had a lot of fun playing with friends.
+
+Before coming to UCLA for grad school, I completed my B.Sc. degree from College of Life Sciences, Zhejiang University. I was lucky enough to have skipped the National College Entrance Exams by being recommended for admission directly to ZJU from my high school; however, I was
+unlucky to be majored in English. Hence when I heard a new biology class was recruiting students at ZJU, I did not
+hesitate to sign up for the interview, and got admitted there. At that time I did not know Bioinformatics and thought I was going to 
+conduct biological experiments. However the first time I held a pipette in my hands, I realized I am not suitable to do any 
+experiments. That's when I started looking actively to use computer programming to solve biology problems.
 
 
-## Why I study Bioinformatics?
-Before coming to UCLA for grad school, I obtained my B.Sc. degree from College of Life Sciences, Zhejiang University. I was lucky to
-skip the National College Entrance Exams through being recommended for admission directly to ZJU from my high school; however, I was
-unlucky to be admitted to study English as my major. 
+## I'm a Gamer
+As I mentioned, programming and games played an important role in my childhood. Even today I still play games from time to time, and 
+enjoyed doing so.
+
 
 
 <hr />
