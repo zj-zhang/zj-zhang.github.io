@@ -4,8 +4,14 @@
 - name: DARTS
   url: https://github.com/Xinglab/DARTS
 
+- name: Xing Lab projects
+  url: https://github.com/Xinglab/
+
 - name: Liangke's homepage
   url: https://gouliangke.github.io/
 
 - name: Youtube channel
   url: https://www.youtube.com/channel/UC1scIK8-JKb9uKNwOSzwXFw/videos
+
+- name: Another blog
+  url: https://zzjandglk.wordpress.com/
