@@ -38,8 +38,8 @@ experiments. That's when I started looking actively to use computer programming 
 
 
 ## I'm a Gamer
-As I mentioned, programming and games played an important role in my childhood. Even today I still play games from time to time, and 
-enjoyed doing so.
+Programming and games played an important role in my childhood. Even today I still play games from time to time, and 
+enjoy doing so.
 
 
 
