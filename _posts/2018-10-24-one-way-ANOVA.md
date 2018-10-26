@@ -111,7 +111,8 @@ Example: consider y=measure of drug outcome; 5 potential treatments
 3. drug A 2
 4. drug B 1
 5. drug B 2
-Suppose F-test rejects H_0.
+
+Suppose F-test rejects $H_0$.
 
 All possilbe constrats:
  - c1 = (0, -1, 1, 0, 0)
