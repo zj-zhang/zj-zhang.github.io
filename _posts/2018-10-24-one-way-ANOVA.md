@@ -2,7 +2,7 @@
 layout: post
 title:  "A quick Intro to one-way ANOVA"
 categories: Statistics
-tags: programming python tensorflow
+tags: statistics regression anova causal-inference
 author: ZijunZhang_
 academia: true
 mathjax: true
