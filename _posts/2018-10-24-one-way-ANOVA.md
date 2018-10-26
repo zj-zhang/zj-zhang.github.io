@@ -64,7 +64,7 @@ T-Test based on $T = \frac{\hat{D}}{SE(\hat{D})} \sim t_{df_{error}}$
 
 X = ([1, 0, 0,], [0,1,0], [0,0,1]) ==> X* = (([1, 1, 1,], [0,1,0], [0,0,1]))
 
-$Y = X\beta ==> Y = X* \beta*$
+$Y = X\beta ==> Y = X^{\*} \beta^\*$
 
 then $\beta_1 = \mu_1, \beta_2 = \mu_2, \beta_3 = \mu_3$
 
