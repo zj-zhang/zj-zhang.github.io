@@ -11,7 +11,7 @@ type: page
         <small>"True happiness comes from within."</small>
         <hr>
         <ul>
-            {% for post in paginator.posts %}
+            {% for post in site.posts limit:6 %}
               <li>
                 <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -47,9 +47,16 @@ type: page
             {% endfor %}
         </ul>
 
-
+        <div class="more-link">
+        <h2><a href="/archive">More &#10142;</a></h2>
+        </div>
 
         <!-- Pagination links -->
+        <!-- BUG: generate two "blog" in the navigation bar
+        and cannot turn pages. 
+        DISABLED 2018.10.26
+        -->
+        <!--
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -67,6 +74,9 @@ type: page
             <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
           {% endif %}
         </div>
+        -->
+
+
     </div>
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">

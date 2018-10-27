@@ -17,6 +17,7 @@
                 </li>
 
                 {% for my_page in site.pages %}
+                    <!--<h1>{{my_page.url}}</h1>-->
                     {% if my_page.type == 'page' %}
                     <li>
                         {% if my_page.url == page.url %}
