@@ -114,7 +114,7 @@ Example: consider y=measure of drug outcome; 5 potential treatments
 
 Suppose F-test rejects $H_0$.
 
-All possilbe constrats:
+All possilbe contrasts:
  - c1 = (0, -1, 1, 0, 0)
  - c2 = (0,  0, 0, -1, 1)
  - c3 = (-4, 1, 1, 1, 1)
@@ -122,4 +122,95 @@ All possilbe constrats:
 
 We say contrasts are _*orthonormal*_ when they are mutually orthogonal and have length 1.
 
+
+## Orthogonal polynomial contrasts
+
+Suppose have experimental factor with continuous underlying scale (say, age groups).
+Suppose ANOVA F-test rejects H_0, what next?
+
+Idea when there is underlying continiuum: orthogonal olynomial contrasts.
+
+For 4 groups:
+- Linear: c1 = (-3, -1, 1, 3)
+- Quadratic: c2 = (1, -1, -1, 1)
+- Cubic: c3 = (-1, 3, -3, 1)
+
+c1, c2, c3 mutually orthogonal. The names come from fact that if group means are correlated with contrast coefficients 
+(yielding larger numericator in T = \frac{\hat{L}}{SE(\hat{L})} )
+
+
+Quadratic is not significant if trend is linear. Quadratic significant when means have U-shape or inverted U-shape,
+or curvature where after accounting for linear trend, residuals have U-shape or inverted U-shape (in this case both
+linear and quadratic will be significant).
+
+Cubic significant when pattern in means has wavy shape.
+
+
+How to generate orthogonal polynomial coeffs?
+For example, r=4.
+- Take numbers, 1, 2, 3, 4; Regress on constant; Save residuals; Residuals = linear contrast coeffs.
+  - fitted value: 2.5, Residuals: (-1.5, -0.5, 0.5, 1.5)
+- Take numbers, 1^2, 2^2, 3^2, 4^2; Regress on constant; Save residuals; Residuals = quadratic contrast coeffs.
+- Take numbers, 1^3, 2^3, 3^3, 4^3; Regress on constant; Save residuals; Residuals = cubic contrast coeffs.
+
+
+Testing Contrasts are a bit more sensitive than the model-wise F-test.
+
+When use ANOVA on all orthogonal contrasts, that should add up to all explainable sum of squares (between-group ss.)
+in the model-wise ANOVA table.
+
+
+## Factorial design
+
+Consider study of cholesterol levels with 4 drugs and 2 diets.
+
+Proposes desgin:
+
+|----|----|----|----|----|----|
+|Group 	|1	|2	| 3|	4|	 5|
+|----|----|----|----|----|----|
+|Drug 	|P 	|P 	|D1 	|D2 	|D3|
+|----|----|----|----|----|----|
+|Diet 	|R 	|LF	|R 	|R |	R|
+|----|----|----|----|----|----|
+|n 	|10	|10	|10	|10	|10|
+
+Factorial desgin:
+
+
+|		Drug 	|
+|:----:|:----:|:----:|:----:|:----:|:----:|
+|	|	  | P |  D1 | D2 | D3 |
+|Diet     |R |	6	|6	|6	|6|
+|	      |L |	6	|6	|6	|6|
+
+
+ANOVA Tables
+
+Tow-way factorial desgin
+
+|Source	| df  |
+|-----	|----|
+|group 	|	7|
+|error	|	40|
+|Total	|	47|
+
+
+Further, two-way factorial design partitioning treatment SS:
+
+|Source	| df   |  df|
+|-----	----   | ----|
+|drug 	|	3  | (a-1)|
+|diet 	|   1   | (b-1)|
+|drug x diet 	|	3  | (a-1)(b-1)|
+|error	|	40  | ab(n-1)|
+|----	| ----- | ----- |
+|Total	| 47	| abn - 1 |
+
+Factorial designs more effectively use units. Can get the same main effects with fewer units than studying
+separately, plus gain the insights into interactions.
+
+Half replication (example of "fractional factorial design"): List all possible treatment combinations, group them 
+by treatment combos with even number of "+" levels and odd number of "+" levels. Each set of the half would be a
+possible choice of the half replication.
 
