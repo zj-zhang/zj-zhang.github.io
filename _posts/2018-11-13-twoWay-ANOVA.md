@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Two-way ANOVA and Tukey test for non-additivity without replications"
+title:  "Two-way ANOVA and test for interaction without replications"
 categories: Statistics
 tags: statistics regression anova causal-inference
 author: ZijunZhang_
