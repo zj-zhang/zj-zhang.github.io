@@ -2,7 +2,7 @@
 layout: post
 title:  "Causal Inference in Dose-Response with Compliance and Its Extensions in Genetic Studies"
 categories: Statistics
-tags: causal-inference anova
+tags: causal-inference anova statistics
 author: ZijunZhang_
 academia: true
 mathjax: true
@@ -21,6 +21,8 @@ mathjax: true
 
 
 
+
+**TL;DR**: Compliance is the actual proportion of the assigned pills a patient takes. In placebo group, the compliance reflects a patients psychological status; in treatment group, the compliance is (additionally) proportional to the active drugs received. We could use statistical modelling to better understand the treatment (causal) effect by considering the compliance as an explanatory variable.
 
 ### 1.Compliance data and the Efron-Feldman model
 
