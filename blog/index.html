@@ -11,7 +11,7 @@ type: page
         <small>"True happiness comes from within."</small>
         <hr>
         <ul>
-            {% for post in site.posts limit:6 %}
+            {% for post in site.posts limit:15 %}
               <li>
                 <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
