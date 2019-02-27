@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Host a ReadTheDoc site for your package in 7 Steps by Sphinx"
+title:  "Host a ReadTheDocs site for your package in 7 Steps by Sphinx"
 categories: Programming
 tags: python programming
 author: ZijunZhang_
@@ -14,9 +14,12 @@ mathjax: false
 So today I decided to give it another try for documentation genration for my new package [Darts](https://github.com/Xinglab/DARTS).
 I previously tried [Sphinx](http://www.sphinx-doc.org/en/master/) for [CLAM](https://github.com/Xinglab/CLAM), but that didn't work out well. Since I am now a bit smarter to
 have successfully compiled a pypi and Anaconda packages, I think maybe 
-it's time to write down my experience for Sphinx as well, 
+it's time to write down my experience for Sphinx, 
 so that next time I could simply follow the dummie's guide for Python documentation site generation, and 
 hopefully help others save some time.
+
+![the Great Sphinx of Giza, Egypt](https://cdn.britannica.com/s:700x450/85/99185-004-C2C30FAC.jpg)
+> The Great [Sphinx](https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html) of Giza, Egypt.
 
 
 
@@ -158,7 +161,7 @@ Specifically, write the following content to `source/read.rst`:
 If your `README` is in [Markdown](#) format, like I do, you will need another package [m2r](#) by `pip install m2r`. First, change the above `.. include::` to `.. mdinclude:: ../../README.md`
 
 
-And also add the `m2r` extension within the `source/conf.py`, just like how we added the Google-style docstring `napoleon` extension in step #7:
+And also add the `m2r` extension within the `source/conf.py`, just like how we added the Google-style docstring `napoleon` extension in step #[4](#4-changing-html-theme-and-google-style-docstring):
 ```python
 extensions = [
     'sphinx.ext.autodoc',
@@ -180,5 +183,29 @@ Till now, the doc site should look pretty close to the standards:
 
 ![5.png](https://raw.githubusercontent.com/zj-zhang/picture_store/master/2019-02-24-use_sphinx/5.png)
 
-## 7. Connect to ReadTheDoc for hosting the doc site
+## 7. Connect to ReadTheDocs for hosting the doc site
 
+Now the final step, host your site on [ReadTheDocs](https://readthedocs.org/). If you haven't already, you
+should register an account there. It provides direct integration with GitHub, but I prefer to use a standalone
+account.
+
+There are a few quick things to modify in the Github repo before importing it to ReadTheDocs:
+ - Add a `readthedocs.yaml` file. In my case I just used the template below and it simply went through. For more details, see [here](https://docs.readthedocs.io/en/stable/design/yaml-file.html#configuration-file).
+ - Modify `setup.py` to include the package `m2r` and other custom [Sphinx extensions](#) used, to the "install_requires" options.
+
+```yaml
+# .readthedocs.yml
+version: 2
+python:
+  version: 2.7
+  install:
+     - method: pip
+       path: .
+```
+
+Next, you can import a GitHub repo manually by just providing a Git link. In about 1 minute, your site should be up and running with a domain name "package_name.readthedocs.io", like the one I have here [http://darts-bht.readthedocs.io/](http://darts-bht.readthedocs.io/) !
+
+
+## PS
+
+1. I've encoutered a blog saying why [Markdown is not good for Documentations](http://www.ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/). Not sure if that's true, but all I know is when [Sphinx](#) only supports RST I could not get anything to work!
