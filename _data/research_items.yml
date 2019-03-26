@@ -5,7 +5,7 @@
     patterns of expression and thereby discover new regulatory events has been limited. 
   description: Conceptually, the DARTS framework transforms existing RNA-seq big data into a splicing knowledge-base by deep learning, 
     and help democratize the information from large consortium projects to help individual investigators better characterize alternative 
-    splicing profiles using their specific RNA-seq datasets. <a href="#" target="_blank">Read More</a>
+    splicing profiles using their specific RNA-seq datasets. <a href="https://www.nature.com/articles/s41592-019-0351-9" target="_blank">Read More</a>
 
 - name: Statistics Reveals Novel Regulatory Patterns
   url: https://raw.githubusercontent.com/zj-zhang/picture_store/master/my-githubio-homepage/CLAM.jpg
