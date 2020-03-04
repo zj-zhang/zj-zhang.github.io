@@ -7,8 +7,8 @@
 
 # Site settings
 title: Zijun Zhang
-description: Professional Homepage and Blogs of Zijun Zhang
-brief-intro: Ph.D. candidate in Bioinformatics @ UCLA 
+description: Homepage and Blogs of Zijun Zhang
+brief-intro: Bioinformatics Researcher @ Simons Foundation 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zj-zhang.github.io" # the base hostname & protocol for your site
 
@@ -24,7 +24,7 @@ zhihu_username:
 linkedIn_username: 
 dribbble_username:
 
-description_footer: I am a data scientist currently studying Bioinformatics. I like building things.
+description_footer: This site was last updated on March, 2020.
 
 # comments
 # two ways to comment, only choose one, and use your own short name

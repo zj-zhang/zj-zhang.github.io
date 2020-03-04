@@ -4,11 +4,14 @@
 - name: DARTS
   url: https://github.com/Xinglab/DARTS
 
+- name: FunctionLab @ Princeton
+  url: https://function.princeton.edu/
+
+- name: Simons Foundation
+  url: https://www.simonsfoundation.org/flatiron/center-for-computational-biology/ 
+
 - name: Xing Lab @ CHOP
   url: https://xinglab.org/
-
-- name: Xing Lab projects
-  url: https://github.com/Xinglab/
 
 - name: Liangke's homepage
   url: https://gouliangke.github.io/
