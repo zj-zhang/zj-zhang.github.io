@@ -8,17 +8,21 @@ academia: true
 mathjax: false
 ---
 
+Steps and Tips for Python Packaging
+
+
 Packaging a set of python scripts as a package is easy, and it makes your work more 
 accessible to users. Moreover, you can better track the usage of your package 
 over time! 
+
+
 
 
 * content
 {:toc}
 
 
-##  1. Going from Python Scripts to Package
-
+##  1. Going from Python Scripts to a Package
 ### 1.0 handling imports within
 This should have been done during the development. But if not, make sure the 
 `import` you used in your scripts are properly using [relative imports](https://docs.python.org/3/reference/import.html),
@@ -62,16 +66,17 @@ will be reflected without re-installing evey time. Read more about the developme
 
 ## 2. Publishing through PYPI
 ### 2.1 Register an account
-Register here for official PyPI: https://pypi.org/
-For the test-drive repository, regiter here: https://test.pypi.org/
+Register here for official PyPI: [https://pypi.org/](https://pypi.org/)
+
+For the test-drive repository, regiter here: [https://test.pypi.org/](https://test.pypi.org/)
 
 ### 2.2 Upload
-CAUTION: once you upload to the official PYPI website, the script will be frozen
+__CAUTION__: once you upload to the official PYPI website, the script will be frozen
 and not further changes are allowed. You can only update with a version bump, so
 be sure to test everything before releasing!
 
 Now you can upload following this tutorial, with your own account name and password!
-https://packaging.python.org/tutorials/packaging-projects/
+[https://packaging.python.org/tutorials/packaging-projects/](https://packaging.python.org/tutorials/packaging-projects/)
 
 If you have followed the setup and README properly, just jump to this 
 [section](https://packaging.python.org/tutorials/packaging-projects/#generating-distribution-archives)
@@ -81,13 +86,14 @@ The tutorial also only uploads to a test-drive repository that is independent fr
 the official repository.
 
 For uploading to the official PyPI repository, just use this
+
 ```shell script
 python3 -m twine upload 
 ```
 
 
 ## 3. Track usage reports
-This website https://pepy.tech/ provides the easist way to track the download stats
+This website [https://pepy.tech/](https://pepy.tech/) provides the easist way to track the download stats
 from PyPI as of September 2021.
 
 Alternatively, Google BigQuery is hosting more detailed information for download and

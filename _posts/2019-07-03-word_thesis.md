@@ -8,7 +8,10 @@ academia: true
 mathjax: false
 ---
 
-A simple note on a few formatting tricks in Microsoft Word 
+A note on writing a PhD thesis in MS Word
+
+
+Below is a simple note on a few formatting tricks in Microsoft Word 
 for PhD thesis writing.
 
 
