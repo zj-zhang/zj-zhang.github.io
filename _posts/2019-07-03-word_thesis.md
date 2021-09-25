@@ -12,7 +12,10 @@ A note on writing a PhD thesis in MS Word
 
 
 Below is a simple note on a few formatting tricks in Microsoft Word 
-for PhD thesis writing.
+for PhD thesis writing. Briefly, this needs to account for how to make
+a proper page numbering, table of contents, and references to list of
+figures and tables.
+
 
 
 
