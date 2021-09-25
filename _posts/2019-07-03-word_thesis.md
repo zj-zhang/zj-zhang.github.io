@@ -23,8 +23,7 @@ figures and tables.
 {:toc}
 
 
-__Page Numbering__
-
+### Page Numbering
 1. use "Layout" --> "Breaks" to insert "Sections/Continous" to separate different Chapters 
 into different sections.
 
@@ -43,8 +42,7 @@ set "Start at: 1". Now the Prefix and Chapters have separated numbering.
 to Roman Numbering for the Prefix.
 
 
-__Add Table of Contents__
-
+### Add Table of Contents
 1. Format the Section and Subsection heading by "Home" --> "Heading 1/2/3".
 
 2. In the ToC page, click "References" --> "Table of Contents".
@@ -53,13 +51,11 @@ __Add Table of Contents__
 to the same style of the main texts. This includes font, bold, and paragraph (which usually
 is double spacing).
 
-__Add List of Figures__
-
+### Add List of Figures
 1. Set cursor at the first
 chapter location (e.g. "Chapter 1"), then in "Home" tab, select "Multilevel list" --> "Chapter".
 ("Multilevel list" is in "Home/Paragraph" group and above "Aligning" buttons.)
 This will create a list for all chapters and the corresponding sections/subsections. 
-
 
 2. Select the caption of a particular figure, then "References" --> "Insert Caption".
 In "Numbering..", select "Including chapter number", and set "Use separator" is ". period". 
