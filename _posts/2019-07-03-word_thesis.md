@@ -23,7 +23,7 @@ figures and tables.
 {:toc}
 
 
-### 1. Page Numbering
+__Page Numbering__
 
 1. use "Layout" --> "Breaks" to insert "Sections/Continous" to separate different Chapters 
 into different sections.
@@ -43,7 +43,7 @@ set "Start at: 1". Now the Prefix and Chapters have separated numbering.
 to Roman Numbering for the Prefix.
 
 
-### 2. Add Table of Contents
+__Add Table of Contents__
 
 1. Format the Section and Subsection heading by "Home" --> "Heading 1/2/3".
 
@@ -53,7 +53,7 @@ to Roman Numbering for the Prefix.
 to the same style of the main texts. This includes font, bold, and paragraph (which usually
 is double spacing).
 
-### 3. Add List of Figures
+__Add List of Figures__
 
 1. Set cursor at the first
 chapter location (e.g. "Chapter 1"), then in "Home" tab, select "Multilevel list" --> "Chapter".
